@@ -15,9 +15,7 @@ module.exports = {
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
-  adapter: adapter({
-    excludeDatastoreFromEngineFunction: false
-  }),
+  
   plugins: [
     `gatsby-plugin-image`,
     {
